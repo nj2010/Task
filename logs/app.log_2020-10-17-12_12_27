@@ -1,0 +1,2 @@
+12:12:35.107 [main] INFO  step_definitions.FacebookLoginSteps - User is on Facebook login page
+12:12:38.151 [main] INFO  step_definitions.FacebookLoginSteps - User logged in

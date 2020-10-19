@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 174911,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Log in  with email",
+        "description": "",
+        "id": "facebook-login;log-in--with-email",
+        "after": [
+          {
+            "result": {
+              "duration": 3923605524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13087195685,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Facebook login page",
+            "match": {
+              "location": "FacebookLoginSteps.user_is_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 799992222,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters email and password",
+            "match": {
+              "location": "FacebookLoginSteps.user_enters_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4620873416,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks login button",
+            "match": {
+              "location": "FacebookLoginSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35279,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be in profile page",
+            "match": {
+              "location": "FacebookLoginSteps.user_should_be_in_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1988471880,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user inputs \"Fetch Rewards\" in search field and presses enter keyboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fetch Rewards",
+                  "offset": 13
+                }
+              ],
+              "location": "FacebookLoginSteps.user_inputs_in_search_field_and_presses_enter_keyboard(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 588199900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see Fetch Rewards profile page",
+            "match": {
+              "location": "FacebookLoginSteps.user_should_see_Fetch_Rewards_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5275526729,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user goes to Fetch Rewards page",
+            "match": {
+              "location": "FacebookLoginSteps.user_presses_like_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4494749614,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks like button",
+            "match": {
+              "location": "FacebookLoginSteps.userGoesToFetchRewardsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2046158394,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "like button should be displayed as liked",
+            "match": {
+              "location": "FacebookLoginSteps.like_button_is_displayed_as_liked()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "features/facebookLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
